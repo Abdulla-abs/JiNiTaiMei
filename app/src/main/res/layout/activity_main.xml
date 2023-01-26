@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/ji"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="鸡" />
+
+           <Button
+               android:id="@+id/ni"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="你" />
+
+           <Button
+               android:id="@+id/tai"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="太" />
+
+           <Button
+               android:id="@+id/mei"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="美" />
+
+
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/jinitaimei"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:text="鸡你太美"
+           android:letterSpacing="1"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/niganma"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2"
+               android:letterSpacing="0.66"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="你干嘛"/>
+
+           <Button
+               android:id="@+id/lanqiu"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:letterSpacing="0.33"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:text="篮球"/>
+
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/jinishizaishitaimei"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:text="鸡你实在是太美"
+           android:letterSpacing="1"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/tanchiji"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:letterSpacing="0.5"
+               android:layout_marginEnd="5dp"
+               android:text="贪吃鸡"/>
+
+
+           <Button
+               android:id="@+id/saoji"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginStart="5dp"
+               android:layout_marginEnd="5dp"
+               android:letterSpacing="0.5"
+               android:text="扫鸡"/>
+
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/biecaijikuai"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:letterSpacing="1.0"
+           android:text="别踩鸡块"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp">
+
+           <Button
+               android:id="@+id/caojikunkun"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:letterSpacing="0.5"
+               android:text="超级坤坤"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

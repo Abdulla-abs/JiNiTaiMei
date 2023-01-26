@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/drawable/shape_gray_5.xml" value="0.179" />
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/layout/activity_bie_cai_bai_kuai.xml" value="0.264" />
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/layout/activity_chao_ji_kun_kun.xml" value="0.13072916666666667" />
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/layout/activity_saoji.xml" value="0.12335359675785208" />
+        <entry key="..\:/Android_Project/jntm/app/src/main/res/layout/activity_tanchiji.xml" value="0.21784420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
